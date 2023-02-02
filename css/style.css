@@ -3,3 +3,27 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+:root{
+    --fc-bg: #ffffff;
+    --fc-title: #e53170;
+    --fc-bgcards: #0f0e17;
+    --fc-mail: #60b9dc;
+}
+
+header{
+    margin: 02em auto;
+    color: var(--fc-title);
+    text-align: center;
+}
+
+
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}

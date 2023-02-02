@@ -28,21 +28,44 @@ header{
 
 .container{
     max-width: 1170px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-.team .guy{
+.team .card{
+    margin: 6px;
     float: left;
-    width: calc(100% / 3);
-    padding: 0 15px;
+    width: calc(96% / 3);
+    text-align: left;
+    height: 70px;
+    padding: 0px;
 }
 
-.debug .guy{
-    height: 100px;
+.card{
     background-color: #0f0e17;
-    border: 1px solid yellow;
+    ;
 }
 
-.team .guy img{
-    height: 98px;
+.team .card img{
+    height: 70px;
+}
+
+.name{
+    font-weight: bold;
+    color: white;
+}
+
+.role{
+    font-size: 0.75em;
+    color: white;
+}
+.mail{
+    color:#60b9dc;
+    font-size: 0.75em;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
 }

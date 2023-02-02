@@ -36,8 +36,6 @@ header{
     float: left;
     width: calc(96% / 3);
     text-align: left;
-    height: 70px;
-    padding: 0px;
 }
 
 .card{
@@ -47,6 +45,12 @@ header{
 
 .team .card img{
     height: 70px;
+    float: left;
+}
+
+.badge{
+    padding: 8px 100px;
+
 }
 
 .name{
@@ -67,5 +71,4 @@ header{
     content: '';
     display: table;
     clear: both;
-
 }

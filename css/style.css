@@ -1,3 +1,4 @@
+/*region common */
 *{
    margin: 0;
    padding: 0;
@@ -14,16 +15,34 @@ body{
     --fc-bgcards: #0f0e17;
     --fc-mail: #60b9dc;
 }
+/* end region common */
+
+/*Utilities*/
 
 header{
-    margin: 02em auto;
+    padding: 1rem;
+    margin: 0 auto;
     color: var(--fc-title);
     text-align: center;
 }
 
-
-
 .container{
-    max-width: 80%;
+    max-width: 1170px;
     margin: 0 auto;
+}
+
+.team .guy{
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 15px;
+}
+
+.debug .guy{
+    height: 100px;
+    background-color: #0f0e17;
+    border: 1px solid yellow;
+}
+
+.team .guy img{
+    height: 98px;
 }

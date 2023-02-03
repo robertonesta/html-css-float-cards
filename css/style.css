@@ -31,6 +31,11 @@ header{
     margin: 10px auto;
 }
 
+footer{
+    max-width: 1170px;
+    margin: 10px auto;    
+}
+
 .team .card{
     margin: 6px;
     float: left;
